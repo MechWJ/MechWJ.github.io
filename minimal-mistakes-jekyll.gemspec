@@ -14,16 +14,9 @@ Gem::Specification.new do |spec|
   spec.metadata["plugin_type"] = "theme"
 
   spec.files = Dir.glob("**/*").select do |f|
-<<<<<<< HEAD
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
   end
   
-=======
-  f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
-end
-
->>>>>>> c2494c82eb5e2b1b1d4cdc6d7ba971904302a537
-
   spec.add_runtime_dependency "jekyll", ">= 3.7", "< 5.0"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
